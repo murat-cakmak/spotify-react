@@ -1,4 +1,4 @@
-# Spotfy Clone with React
+# Spotify Clone with React
 
 In the project directory, you can run:
 

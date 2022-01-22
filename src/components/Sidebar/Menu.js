@@ -11,7 +11,7 @@ export default function Menu() {
                         to="/"
                         activeClassName={"bg-active text-white"}
                         className={"h-10 flex items-center text-sm font-semibold text-link px-4 rounded gap-x-4"}>
-                        <Icon size={16} name="home"></Icon>
+                        <Icon size={24} name="home"></Icon>
                         Anasayfa
                     </NavLink>
                 </li>
@@ -20,7 +20,7 @@ export default function Menu() {
                         to="/search"
                         activeClassName={"bg-active text-white"}
                         className={"h-10 flex items-center text-sm font-semibold text-link hover:text-white px-4 rounded gap-x-4"}>
-                        <Icon size={16} name="search"></Icon>
+                        <Icon size={24} name="search"></Icon>
                         Ara
                     </NavLink>
                 </li>
@@ -29,7 +29,7 @@ export default function Menu() {
                         to="/collection"
                         activeClassName={"bg-active text-white"}
                         className={"h-10 flex items-center text-sm font-semibold text-link hover:text-white px-4 rounded gap-x-4"}>
-                        <Icon size={16} name="collection"></Icon>
+                        <Icon size={24} name="collection"></Icon>
                         Kitaplığım
                     </NavLink>
                 </li>

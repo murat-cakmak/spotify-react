@@ -7,7 +7,9 @@ export default function SearchBar() {
                 <div className={"flex items-center m-3"}>
                     <Icon size={24} name="searchBlack"></Icon>
                 </div>
-                <input className={"w-full h-full py-1.5 mr-8 text-sm color-black placeholder:text-black placeholder:text-sm placeholder:opacity-80"} placeholder="Artists, songs, or podcasts"/>
+                <input
+                    className={"w-full h-full py-1.5 px-2 mr-8 text-sm color-black placeholder:text-black placeholder:text-sm placeholder:opacity-80 input:border-none"}
+                    placeholder="Artists, songs, or podcasts"/>
             </div>
         </div>
     )
